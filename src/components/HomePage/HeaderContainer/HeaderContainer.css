@@ -1,0 +1,104 @@
+.searchContainer {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: darkred;
+}
+
+.headerText {
+  color: white;
+  margin: 2%;
+}
+
+.searchWrapper {
+  width: 100%;
+}
+
+.selector_input {
+  width: 25%;
+  padding: 0;
+  border: 0;
+  padding: 10px 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.AddBtn,
+.clearBtn {
+  padding: 10px 5px;
+  border: 0;
+  font-weight: 600;
+  background: white;
+  width: 3%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .AddBtn,
+  .clearBtn {
+    padding: 10px 5px;
+    width: 5%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .AddBtn,
+  .clearBtn {
+    padding: 10px 8px;
+    width: 8%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .selector_input {
+    width: 50%;
+  }
+  .AddBtn,
+  .clearBtn {
+    padding: 10px 10px;
+    width: 8%;
+  }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.selectDropDown {
+  z-index: 99;
+  margin-top: 0;
+  width: 45%;
+  left: 27%;
+  padding-left: 0;
+  color: black;
+  background: #f9f6f6;
+  position: absolute;
+  height: 40%;
+  overflow-y: scroll;
+}
+
+.eachOption {
+  padding: 10px 10px;
+}
+
+.eachOption:hover {
+  background: #e3dede;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.eachOption {
+  padding: 10px 10px;
+}
+
+.eachOption:hover {
+  background: #e3dede;
+}

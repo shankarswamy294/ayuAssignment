@@ -1,0 +1,21 @@
+.watchListContainer {
+  text-align: center;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+}
+
+.movieBox {
+  height: 180px;
+  border: 1px solid black;
+  width: 150px;
+  margin: 20px;
+}
+
+.moviePoster {
+  width: 100%;
+  height: 85%;
+}
