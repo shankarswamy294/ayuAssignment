@@ -1,0 +1,14 @@
+.DetailedView{
+    width: 100%;
+    display: inline-grid;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+}
+.detailCard{
+    align-items: center;
+}
+.poster{
+    width: 250px;
+}
